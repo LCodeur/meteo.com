@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="background-image: url(A1.JPG);background-repeat: no-repeat;background-size: contain;">
+        <div class="login" style="border-radius:15px;margin-top:8%;background-color: gray;<?php echo $err; ?>">
+            <h1 style="color: black">inscription! </h1>
+            <form method="post" action="">
+                <label for="name" id="lab" style="color: black">username</label>
+                <br>
+                <input type="text" placeholder="Entrer username" id="name" name="nom" style="margin-top: 12px;border-bottom: 1PX SOLID white;">
+                <br>
+                <label for="password" id="lab" style="color: black">password</label>
+                <br>
+                <input type="password" placeholder="Entrer password" id="password" name="passwords" style="margin-top: px;border-bottom: 1PX SOLID white;">
+                <br>
+                <label for="telephone" id="lab" style="color: black">telephone</label>
+                <br>
+                <input type="text" placeholder="Entrer telephone" id="password" name="telephone" style="margin-top: px;border-bottom: 1PX SOLID white;">
+                <br>
+                <input style="height:60px" type="submit"  value="inscription" id="bott" name="submit" style="background-color:white;margin-top: -10px">
+                <a href=""><small>Nous vous grantissons<br> tout bien fonder sur la <br>restriction de vos informations</small></a>
+                <a href="http://stackoverflow.com" onclick="return confirm('Are you sure?');">Connexion</a>
+            </form>
+        </div>
+    </body>
+</html>
